@@ -2,7 +2,7 @@
 """
 Author : Lynn Bradshaw <readyready15728@gmail.com>
 Date   : 2021-11-01
-Purpose: Word Count
+Purpose: Word count
 """
 
 import argparse
@@ -14,7 +14,7 @@ def get_args():
     """Get command-line arguments"""
 
     parser = argparse.ArgumentParser(
-        description='Rock the Casbah',
+        description='Word count',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument('file',
