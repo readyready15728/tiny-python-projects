@@ -15,7 +15,7 @@ def get_args():
     """Get command-line arguments"""
 
     parser = argparse.ArgumentParser(
-        description='Rock the Casbah',
+        description='Make rhyming words',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument('word', metavar='str', help='A word to rhyme')
